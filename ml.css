@@ -1,0 +1,271 @@
+
+.p1 {
+    color: rgb(128, 128, 128);
+    float: left;
+}
+.tur2 {
+    padding-left: 15px;
+    float: left;
+    width: 400px;
+    height: 240px;
+}
+.h1 {
+    color: rgb(255, 255, 255);
+    float: left;
+}
+.box {
+   background-color: rgb(255, 255, 255);
+    width: 1300px;
+    height: 68px;
+    float: left;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+   
+}
+
+.box1 {
+  
+   
+    width: 250px;
+    height: 6px;
+    border-radius: 45px;
+    float: left;
+    
+}
+.HOME {
+    border-radius: 60px;
+    color: rgb(185, 0, 0);
+    font-size: 26px;
+    font-weight: bolder;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    padding:5px 10px 5px 10px;
+   
+ }
+ .HOME:hover {
+    background: #b90000;
+    color: #fff;
+    border-radius: 1px;
+    box-shadow: 0 0 5px #d30000,
+                0 0 20px #d30000,
+                0 0 40px #d30000,
+                0 0 90px #d30000;
+ }
+ .box2 {
+    position: relative;
+    
+    width: 5px;
+    height: 40px;
+    border-radius: 45px;
+    float: left;
+    align-items: top center;
+    justify-content: center;
+ }
+ 
+.link {
+    border-radius: 60px;
+    color: rgb(185, 0, 0);
+    font-size: 26px;
+    font-weight: bolder;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    padding:5px 10px 5px 10px;
+   
+}
+.link:hover {
+    background: #b90000;
+    color: #fff;
+    border-radius: 1px;
+    box-shadow: 0 0 5px #d30000,
+                0 0 20px #d30000,
+                0 0 40px #d30000,
+                0 0 90px #d30000;
+}
+.box3 {
+    position: relative;
+   
+    width: 410px;
+    height: 1px;
+    border-radius: 45px;
+   float: right;
+}
+.box4 {
+    position: relative;
+    
+    width: 5px;
+    height: 40px;
+    border-radius: 45px;
+   float: right;
+}
+.tur {
+    border-radius: 60px;
+    color: rgb(185, 0, 0);
+    font-size: 26px;
+    font-weight: bolder;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    padding:5px 10px 5px 10px;
+   
+ }
+ .tur:hover {
+    background: #b90000;
+    color: #fff;
+    border-radius: 1px;
+    box-shadow: 0 0 5px #d30000,
+                0 0 20px #d30000,
+                0 0 40px #d30000,
+                0 0 90px #d30000;
+ }
+.ml {
+   
+    float: left;
+    width: 170px;
+    height: 68px;
+}
+ 
+body
+{
+    background-image: url(gam/bg1.jpg);
+    
+}
+.tur1 {
+    float: left;
+    border-radius: 10px;
+    width: 400px;
+    height: 240px;
+}
+.tur2 {
+    padding-left: 15px;
+    float: left;
+    width: 400px;
+    height: 240px;
+}
+.tur3 {
+    padding-left: 15px;
+    border-radius: 10px;
+    width: 400px;
+    height: 240px;
+}
+.tur4 {
+    float: left;
+    border-radius: 10px;
+}
+.tur5 {
+    float: left;
+    border-radius: 10px;
+}
+.tur6 {
+    float: left;
+    border-radius: 10px;
+}
+
+/* */
+.info-tournamen{
+    width:95%;
+    display: flex;
+    justify-content: space-between;
+    margin: 1px auto;
+    text-align: center; 
+    margin-top: 10px;
+    padding-left: px;
+}
+
+.info {
+    width:40%;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px auto;
+}
+
+.info.satu
+{
+    backdrop-filter: ;
+    background-color:transparent; 
+    padding-right: 10px;
+    backdrop-filter: blur(2px);
+    box-shadow: 0px  0px 20px  rgba(0, 0, 0, 0.2);
+}
+.info.dua{  background-color:transparent; 
+    box-shadow: 0px  0px 20px  rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(2px);
+}
+.info.tiga{  background-color:transparent; 
+    box-shadow: 0px  0px 20px  rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(2px);
+}
+
+
+.info-tournamen img{
+    width: 400px;
+    height: 240px;
+
+   
+}
+p {
+    color: rgb(124, 124, 124);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+}
+h3{
+    color: rgb(129, 129, 129);
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+div img {
+    border-radius: 15px;
+}
+
+
+.inpo-tur{
+    width:95%;
+    display: flex;
+    justify-content: space-between;
+    margin: 1px auto;
+    text-align: center; 
+    margin-top: 10px;
+    padding-left: px;
+    
+}
+
+.inpo {
+    width:40%;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px auto;
+}
+
+.inpo.satu {
+    background-color:transparent; 
+    padding-right: 10px;
+    backdrop-filter: blur(2px);
+    box-shadow: 0px 0px 20px  rgba(0, 0, 0, 0.2);
+}
+.inpo.dua{ 
+    background-color:transparent;  
+    backdrop-filter: blur(2px);
+    box-shadow: 0px  0px 20px  rgba(0, 0, 0, 0.2);
+}
+
+.inpo.tiga{ 
+    background-color:transparent;  
+    backdrop-filter: blur(2px);
+    box-shadow: 0px 0px 20px  rgba(0, 0, 0, 0.2);
+}
+
+.inpo-tur img{
+    width: 400px;
+    height: 240px;
+}
+.gmbr{
+    transform: scale(1.2) rotate(2 deg
+        );
+}
+
+
+
+
+
+

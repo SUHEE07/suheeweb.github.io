@@ -1,0 +1,429 @@
+.p1 {
+    color: aliceblue;
+    float: left;
+}
+.tur2 {
+    padding-left: 15px;
+    float: left;
+    width: 400px;
+    height: 240px;
+}
+h2 {
+    font-size: 30px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.h1 {
+    color: rgb(255, 0, 0);
+    float: left;
+}
+.box {
+   
+
+   background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 68px;
+    border-radius: 5px;
+    float: left;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.box1 {
+  
+   
+    width: 250px;
+    height: 6px;
+    border-radius: 45px;
+    float: left;
+    
+}
+.HOME {
+    border-radius: 60px;
+    color: rgb(185, 0, 0);
+    font-size: 26px;
+    font-weight: bolder;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    padding:5px 10px 5px 10px;
+    
+ }
+ .HOME:hover {
+    background: #b90000;
+    color: #fff;
+    border-radius: 1px;
+    box-shadow: 0 0 5px #d30000,
+                0 0 20px #d30000,
+                0 0 40px #d30000,
+                0 0 90px #d30000;
+ }
+ .box2 {
+    position: relative;
+    
+    width: 5px;
+    height: 40px;
+    border-radius: 45px;
+    float: left;
+    align-items: top center;
+    justify-content: center;
+ }
+ 
+.link {
+    border-radius: 60px;
+    color: rgb(185, 0, 0);
+    font-size: 26px;
+    font-weight: bolder;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    padding:5px 10px 5px 10px;
+    
+}
+.link:hover {
+    background: #b90000;
+    color: #fff;
+    border-radius: 1px;
+    box-shadow: 0 0 5px #d30000,
+                0 0 20px #d30000,
+                0 0 40px #d30000,
+                0 0 90px #d30000;
+}
+.box3 {
+    position: relative;
+   
+    width: 410px;
+    height: 1px;
+    border-radius: 45px;
+   float: right;
+}
+.box4 {
+    position: relative;
+    
+    width: 5px;
+    height: 40px;
+    border-radius: 45px;
+   float: right;
+}
+.tur {
+    border-radius: 60px;
+    color: rgb(175, 0, 0);
+    font-size: 26px;
+    font-weight: bolder;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    padding:5px 10px 5px 10px;
+    
+ }
+ .tur:hover {
+    background: #b90000;
+    color: #fff;
+    border-radius: 1px;
+    box-shadow: 0 0 5px #d30000,
+                0 0 20px #d30000,
+                0 0 40px #d30000,
+                0 0 90px #d30000;
+ }
+.ml {
+    
+    float: left;
+    width: 170px;
+    height: 70px;
+}
+ 
+body
+{
+    background-image: url(gam/bg1.jpg);
+    
+}
+.game-hp{
+    width:65%;
+    display: flex;
+    justify-content: space-between;
+    margin: 1px auto;
+    text-align: center; 
+    margin-top: 10px;
+    padding-left: 1px;
+}
+
+.game {
+    width:31%;
+    margin: 10px auto;
+}
+
+.game.satu { 
+    transition: .5s;
+    padding-right: 15px;
+    cursor: progress;
+}
+.game.satu:hover {
+   transform:  scale(1.2) rotate(2deg);
+}
+.game.dua {
+     transition: .5s; 
+     padding-right: 15px;
+     cursor: progress;
+    }
+.game.dua:hover { transform:  scale(1.2) rotate(2deg);}
+
+.game.tiga { 
+    transition: .5s;
+    padding-right: 15px;
+    cursor: progress;
+ }
+.game.tiga:hover { transform:  scale(1.2) rotate(2deg); }
+
+.game.empat {
+    transition: .5s;
+    padding-right: 15px;
+    cursor: progress;
+}
+.game.empat:hover {transform:  scale(1.2) rotate(2deg); }
+
+
+.game-hp img{
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+   
+}
+h3{
+    color: rgb(139, 139, 139);
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 10px black;
+}
+h1 {
+    color: rgba(0, 0, 0, 0.205);
+   font-size: 70px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   text-align: center;
+}
+.game-hp2 {
+    width:65%;
+    display: flex;
+    justify-content: space-between;
+    margin: 1px auto;
+    text-align: center; 
+    margin-top: 10px;
+    padding-left: 1px;
+}
+
+.game {
+    width:31%;
+    margin: 10px auto;
+}
+
+.game.a { 
+    transition: .5s;
+    padding-right: 15px;
+    cursor: progress;
+}
+.game.a:hover {
+   transform:  scale(1.2) rotate(2deg);
+}
+.game.b {
+     transition: .5s; 
+     padding-right: 15px;
+     cursor: progress;
+    }
+.game.b:hover { transform:  scale(1.2) rotate(2deg);}
+
+.game.c { 
+    transition: .5s;
+    padding-right: 15px;
+    cursor: progress;
+ }
+.game.c:hover { transform:  scale(1.2) rotate(2deg); }
+
+.game.d{
+    transition: .5s;
+    padding-right: 15px;
+    cursor: progress;
+}
+.game.d:hover {transform:  scale(1.2) rotate(2deg); }
+
+
+.game-hp2 img{
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+}
+.game-hp3, .game-hp4{
+    width:65%;
+    display: flex;
+    justify-content: space-between;
+    margin: 1px auto;
+    text-align: center; 
+    margin-top: 10px;
+    padding-left: 1px;
+}
+
+.game {
+    width:31%;
+    margin: 10px auto;
+}
+
+.game.e { 
+    transition: .5s;
+    padding-right: 15px;
+    cursor: progress;
+    
+}
+.game.e:hover {
+   transform:  scale(1.2) rotate(2deg);
+}
+.game.f {
+     transition: .5s; 
+     padding-right: 15px;
+     cursor: progress;
+    }
+.game.f:hover { transform:  scale(1.2) rotate(2deg);}
+
+.game.g { 
+    transition: .5s;
+    padding-right: 15px;
+    cursor: progress;
+ }
+.game.g:hover { transform:  scale(1.2) rotate(2deg); }
+
+.game.h{
+    transition: .5s;
+    padding-right: 15px;
+    cursor: progress;
+}
+.game.h:hover {transform:  scale(1.2) rotate(2deg); }
+
+
+.game-hp3 img{
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+
+.pubg-db{
+    width:65%;
+    display: flex;
+    justify-content: space-between;
+    margin: 1px auto;
+    text-align: center; 
+    margin-top: 10px;
+    padding-left: 1px;
+}
+
+.pubg {
+    width:31%;
+    margin: 10px auto;
+}
+
+.pubg.i { 
+    transition: .5s;
+    padding-right: 15px;
+}
+.pubg.i:hover {
+   transform:  scale(1.2) rotate(2deg);
+}
+.pubg.j {
+     transition: .5s; 
+     padding-right: 15px;
+    }
+.pubg.j:hover { transform:  scale(1.2) rotate(2deg);}
+
+.pubg.k { 
+    transition: .5s;
+    padding-right: 15px;
+ }
+.pubg.k:hover { transform:  scale(1.2) rotate(2deg); }
+
+.pubg.l{
+    transition: .5s;
+    padding-right: 15px;
+}
+.pubg.l:hover {transform:  scale(1.2) rotate(2deg); }
+
+
+.pubg-db img{
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+}
+.game-hp4{
+    width:65%;
+    display: flex;
+    justify-content: space-between;
+    margin: 1px auto;
+    text-align: center; 
+    margin-top: 10px;
+    padding-left: 1px;
+}
+
+.gem {
+    width:10%;
+    display: flex;
+    justify-content: space-between;
+    margin: 1px auto;
+    text-align: center; 
+    margin-top: 10px;
+    padding-left: 1px;
+}
+
+.gem.i { 
+    float: left;
+    transition: .5s;
+    padding-left: 230px;
+}
+.gem.i:hover {
+   transform:  scale(1.2) rotate(2deg);
+}
+.gem.j {
+    float: left;
+     transition: .5s; 
+     padding-left: 80px;
+    }
+.gem.j:hover { transform:  scale(1.2) rotate(2deg);}
+
+.gem.k { 
+    float: left;
+    transition: .5s;
+    padding-left: 80px;
+ }
+.gem.k:hover { transform:  scale(1.2) rotate(2deg); }
+
+.gem.l{
+    float: left;
+    transition: .5s;
+    padding-left: 80px;
+}
+.gem.l:hover {transform:  scale(1.2) rotate(2deg); }
+
+
+.lgo1{
+    
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    cursor: progress;
+}
+.lgo2 {
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    cursor: progress;
+}
+.lgo3 {
+     width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    cursor: progress;
+}
+.lgo4 {
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    cursor: progress;
+}
+.jdl1 [
+
+]
